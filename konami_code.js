@@ -5,7 +5,9 @@ function init() {
   const body = document.querySelector('body')
 
 body.addEventListener('keydown', function(e) {
-  console.log(e.which);
+  console.log('which ', e.which);
+  console.log('location ', e.location);
+  console.log('detail ', e.which);
   userKeyPress.push(e.which);
   console.log(userKeyPress);
 });
