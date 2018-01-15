@@ -14,7 +14,7 @@ function onKeyDownHandler(e) {
     console.log(index);
 
     if (index === code.length) {
-      alert("Hurray!");
+      alert("Congratulations! You found the code.");
 
       index = 0;
     }
