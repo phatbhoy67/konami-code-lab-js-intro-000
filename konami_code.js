@@ -3,13 +3,12 @@ let index = 0;
 function init() {
   // Write your JavaScript code inside the init() function
   const body = document.querySelector('body');
-
-body.addEventListener('keydown', onKeyDownHandler);
+  body.addEventListener('keydown', onKeyDownHandler);
 }
 
 function onKeyDownHandler(e) {
   const key = parseInt(e.detail || e.which);
-  console.log(key);
+  // console.log(key);
   if (key === code[index]) {
     index++;
 
